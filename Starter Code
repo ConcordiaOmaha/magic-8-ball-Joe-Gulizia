@@ -5,6 +5,9 @@
 
 int main()
 {
+    // Initializes the Random Number Generator
+    srand(time(0));
+    
     // Declare variable
     int userResponse; 
     
