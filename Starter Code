@@ -48,19 +48,19 @@ int main()
         //create a secondary reply that is completely random. 
         int randNum = rand() % 200 + 1 ;        // adding %200 and adding 1 keeps the random number between 1 and 200. 
         
-        if (randNum > 40)
+        if (randNum < 40)
         {
             std::cout << "but, How's you're Mom?"; 
         } 
-        else if (randNum > 80)
+        else if (randNum < 80)
         {
             std::cout << "but, How's you're Dad?";
         }
-        else if (randNum > 120)
+        else if (randNum < 120)
         {
             std::cout << "but, I love you no matter what.";
         }
-        else if (randNum > 160)
+        else if (randNum < 160)
         {
             std::cout << "have you tried Minecraft?";
         }
